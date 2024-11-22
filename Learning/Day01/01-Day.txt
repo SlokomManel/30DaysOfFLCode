@@ -1,0 +1,92 @@
+Source: https://courses.openmined.org/courses/our-privacy-opportunity/
+Lessons: 
+### What is an information flow? 
+
+Be able to understand what is information flow.  
+
+- Information flow if a flow of bits from a sender to a receiver where the sender and receiver could be an exact individual, an anonymous member of a group or a completely ananymous individual. 
+- The identity of the sender, the receiver and the contents of the message itself can be probablistic meaning that we only have some level of confidence about the identity of the sender, the receiver, and the contents of the message. 
+
+In life we don't get the opportunity to share all information except if we are talking to ourselves. 
+
+Next session: The depth and breadth of information flows within society. 
+
+### The privacy dilemma: 
+Privacy-transparentcy tradeoff 
+
+How improving information flow is important? 
+How information flow impacts all dimensions of our lifes? 
+- Leaky information or insufficient information flows
+>> Risks violating someone's private life
+
+What is private to you? >> it depends, private from whom? Sharing with researchers vs on app? with manager vs colleagues ect. 
+When do prople consider it to be private sensitive information? 
+
+- Helen Nissenbaum: : Contextual intergrity: 
+Defense from the Google maps camera on the streets. 
+It is true that this a public road. But when we take the images, store them and make use of them (flows), then this bothers us. 
+- Watch out other people respond to certain things
+- "My privacy is being violated", it is not the secracy 
+- It is about how certain information flows
+- Privacy is about the flow and not the information, e.g., facial recognition 
+- ... The information flow is not appropriate for that context ... 
+- Revealing your location!
+- It is about Contextual intergrity. 
+- Rules of confidentiality 
+Recap: 
+- Often the word privacy a bad rap, people equate it with secreacy or locking down all information but in this concept it's clear that the same information might be private in one context but it's not considered private in another context. Or specifically sharing information in one context might seem like a privacy invasion while sharing that same information in another context might be totally acceptable. >> it's about the information flow >> it's about achieving appropriate information flow. 
+- Society is actively working it out and what is an appropriate information flow in this new digital age, what is appropriate for a specific context? etc 
+
+Next: 
+Modern data
+"You learn when you probably play with fire :) "
+
+Quiz: 
+What's the most accurate definition of privact? 
+>> The ability to ensure flows of information which satisfy social norms. 
+
+More to read:
+How Contextual Integrity can help us with Research Ethics in Pervasive Data
+: https://medium.com/pervade-team/how-contextual-integrity-can-help-us-with-research-ethics-in-pervasive-data-ef633c974cc1
+
+Privacy is Power - Carissa Veliz - I highly recommend this book to learn more about the moral, ethical, and practical reasons for why privacy is so vitally important for society.
+
+What Do We Know and What Should We Do About Internet Privacy? - Paul Bernal - An excellent, super short summary of internet privacy and what we can do!
+
+Privacy in Context - Helen Nissenbaum - One of the most influential books on pinpointing a definition of privacy.
+
+Privacy: A Short History - David Vincent - The history of privacy is fascinating! The concept of privacy is ancient, and the actual definition has changed a lot overtime. This book covers it all very, very well.
+
+
+### Data is Fire
+When excatly people might care about information flow? 
+> Data is like oil!
+> Data is like a fire. You can have a fire and pass to another person. 
+> Data is like fire because it is dual use, just depends on context.
+> safe data vs private data
+- Most dangereous vs not dangereous data
+>> This fire analogy can help us focus on the context and use case at hand. 
+
+- Identification and inference/profile (political, religious etc)
+
+Cynthia Dwork: 
+- You may have nothing to hide right now but there may be changes in your life that you don't feel particularly revealing. 
+>> changes in life might be things that we do not want to reveal. 
+- any data about me can be private data. 
+- It is possible to accurately predict sensitive information about you using machine learning
+- data can be easily stored for decades. 
+>> privacy is a hard problem. 
+
+- Targeting might be in the form of adverstisement or targeted disinformation, physical harms etc. 
+- Anonymization is important because not knowing someone's identifying information protects that individual from certain types of bad behaviour or treatment. It is not in the name itself. The name is noise we don't need the name. 
+- Privacy goes beyond individual into groups, organization, community, entities and even countries/national. Some of us being loose with our privacy settings can become a matter of national security quite quickly. 
+>> It could lead to descriminations 
+- regulation Like GDPR and HPAA
+- Harming individual (targeting weak individuals)
+>> You always play with FIRE. 
+>> Privacy is IMPORTANT 
+
+- Privacy is unmarket opportunity. Sharing information is essential for collaboration and collaboration is essential for almost everything we do. So many collaborations in life don't offer information flows that  allow for the desired outcome to be achieved without risking information leakage. 
+
+
+### The transparency dilemma
