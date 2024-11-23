@@ -1,0 +1,9 @@
+Paper: Federated learning: challenges, methods, and future directions
+
+#Problem formulation:
+- Aim to learn a single, global model under the constraint that device-generated data is stored and processed locally with intermediate updates being communicated periodically with a central server. 
+
+-- The local objective function is often defined as the empirical risk over local data. 
+
+# Core challenges: 
+1- Expensive communication
