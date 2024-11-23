@@ -1,0 +1,41 @@
+## Practical tutorial on Fedarated learning 
+
+Exercise:
+How can we make a model learns from entire populations of smartphone users without exposing any specific user's typing activity or habits (highly sensitive data)?
+- The model has to predict the next-word suggestion. 
+>> Federated Learning is a strategy for training statistical models on a number of remote devices, called clients, without directly accessing client data and thus maintaining user privacy.
+
+# How?
+- FL leverages decentralised training: training on data that is distrubutedly stored among clients.
+- The central problem of FL is to learn a single "global" model from the decentralised client data by communicating the client model updates to a parameter server.
+- FL rounds: is the use of server-client FL system that maintains a centralized server to synchronize training across iterations. 
+
+-- One single FL round operates as follows:
+1. At the beginning of a round, the parameter server sends a copy of the global model to each client.
+2. The clients each train their copy of the model for a number of local epochs on their local dataset (client datasets are called partitions), and send the post-training model updates to the server.
+3. The server then aggregates all the updated client models to form a single federated or _global_ model update which forms the global model for the next round.
+
+Model Aggregation Strategies: 
+- to solve a global optimisation problem by solving a number of smaller optimisation objectives, e.g., minimizing each client loss function. 
+> an aggregate of all of the small optimization steps should result in an overall step towards the global optimization objective.
+
+## Comparison of Centralised and Decentralised Training
+- to produce a model using Flower's framework
+-- A client in this case is a single node in the Federated Learning topology: one user that has a single model with some isolated data
+1) Receive: the model parameters from the global server and set them to your local model. This is achieved by the _set_parameters_ function.
+
+2) Send: the parameters back to the server model - the _get_parameters_ function.
+
+3) Train the model on its own local data - the _fit_ function.
+--- the exact same model as we used in the centralised training setup: three layer neural network interspersed with ReLU non-linearities.
+--- e rounds of local training on each client
+--- local training replicates the centralized training setup for each client
+
+4) Evaluate its model on its own local data - the _evaluate_ function.
+In a federated learning environment, we can look at training points from two lenses:
+1. Per-client point-of-view: we can evaluate the performance of our system as an average of how well each client performs on their own data.
+2. Server point-of-view: we can evaluate the performance of our system on how well the global aggregated model performs on some held-out test data.
+--- The _weighted_average_ function will perform a weighted average of the clients's validation performance to produce a single metric.
+--- The _evaluate_ function will evaluate our global model on the heldout test data that we have created.
+
+## partial participation
