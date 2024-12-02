@@ -1,9 +1,36 @@
 Paper: Federated learning: challenges, methods, and future directions
 
-#Problem formulation:
+# Problem formulation:
 - Aim to learn a single, global model under the constraint that device-generated data is stored and processed locally with intermediate updates being communicated periodically with a central server. 
 
 -- The local objective function is often defined as the empirical risk over local data. 
 
 # Core challenges: 
-1- Expensive communication
+1- Expensive communication: necessary to develop communication-efficient methods that iteratively send small messages or model updates as part of the training process. 
+2- System heterogeneity: The storage, computation, and communication capabilities of each device in federated networks may differ due to variability in hardware, connection, and power...
+The FL methods should: anticipate a low amount of participants, tolerate heterogeneous hardware, and be robust to dropped devices in the network. 
+3- Statistical heterogeneity: 
+the multi task and meta-learning approaches enable personalized or device-specif modeling, which is often a more natural approach to handle the statistical heterogeneity of the data. 
+4- Privacy concerns: 
+communicating model updates throughout the training process can reveal sensitive information either to a third party or to the central server. 
+Understanding and balancing the tradeoff between privacy and utility is a considerable challenge in relaizing private federated learning systems, e.g., differential privacy. 
+
+Future directions:
+
+Federated learning is a growing research area with several open challenges and promising directions:
+
+1. Extreme communication schemes: Exploring minimal communication methods, such as one-shot or divide-and-conquer schemes, to understand their performance in large, heterogeneous networks. Current approaches lack theoretical analysis and large-scale evaluation.
+
+2. Communication reduction & pareto frontier: Investigating how techniques like local updates and model compression interact, analyzing trade-offs between accuracy and communication, and optimizing methods to achieve the Pareto frontier—maximizing accuracy within communication constraints.
+
+3. Novel asynchrony models: Studying event-triggered, device-centric communication schemes suited for federated networks, where devices may independently decide when to interact with the central server, as opposed to traditional synchronous or bounded asynchronous models.
+
+4. Heterogeneity diagnostics: Developing quick, pre-training metrics to measure statistical and systems heterogeneity, and leveraging heterogeneity insights to enhance optimization methods.
+
+5. Granular privacy constraints: Moving beyond global or device-level privacy to incorporate mixed, sample-specific privacy guarantees, allowing for more flexible and accurate federated learning models.
+
+6. Beyond supervised learning: Addressing challenges in tasks like unsupervised learning, exploratory data analysis, and reinforcement learning, which require new methods to handle scalability, heterogeneity, and privacy.
+
+7. Production challenges: Tackling real-world issues like concept drift, diurnal variations, and cold-start problems to improve the reliability of production federated learning systems.
+
+8. Benchmarks: Expanding tools and datasets (e.g., LEAF, TensorFlow Federated) for realistic benchmarks to ensure reproducibility, real-world relevance, and progress in the field.
