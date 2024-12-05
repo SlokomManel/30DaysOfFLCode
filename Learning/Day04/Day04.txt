@@ -1,0 +1,7 @@
+The paper introduces FedHGNN, a federated heterogeneous graph neural network framework, for privacy-preserving recommendations using distributed heterogeneous information networks (HINs). 
+The contributions are:  
+
+1. Formalizing a privacy definition for HIN-based federated recommendation (FedRec) based on differential privacy to protect user-item interactions and high-order user patterns.  
+2. Proposing a semantic-preserving publishing method that perturbs user patterns locally to recover meta-path semantics while ensuring privacy.  
+3. Designing an HGNN model that performs node- and semantic-level aggregations to capture recovered HIN semantics for improved recommendation accuracy.  
+4. Demonstrating significant performance improvements (up to 34% in HR@10 and 42% in NDCG@10) across multiple datasets under a reasonable privacy budget.
