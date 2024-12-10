@@ -1,0 +1,11 @@
+#30DaysOfFLCode 
+1/ 🚀 Diving deep into privacy-enhancing technologies (PETs) by reviewing some papers & running experiments! 
+I had my hands on 
+@iamtrask
+'s Netflix FL code. The code is self-explanatory and easy to follow. Full details here: https://syftbox.openmined.org/datasites/andrew@openmined.org/netflix_fl/README.html 🖥️
+
+2/ Next up: Attempting to reproduce Gustavo Bertoli's work [Link: https://github.com/gubertoli/syftbox-netflix/tree/main]! 
+Hit a snag with the dummy CSV file 📂, but it's all part of the learning process. 
+
+3/ Exploring more repositories & recommendation algorithms to push the boundaries of my knowledge, and understanding. Always open to suggestions or discussions! 
+#RecommenderSystems
